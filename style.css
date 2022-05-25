@@ -1,6 +1,7 @@
 * {
     font-family: Ubuntu;
 }
+/* Background-left-side-box */
 .background-img {
     width: 100%;
     height: 100vh;
@@ -30,6 +31,8 @@
     font-size: 3rem;
     color: white;
 }
+/* Main right-side-container */
+/* Article */
 .main {
     display: flex;
 }
@@ -44,9 +47,14 @@
     background-color: rgb(247, 255, 255);
     padding-bottom: 20px;
 }
+.article h2:last-child {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
 h2 {
     margin: 0;
 }
+/* Form */
 .form-field {
     height: 380px;
     padding-left: 50px;
@@ -80,9 +88,7 @@ h2 {
     margin-right: 80px;
     margin-bottom: 25px;
 }
-h4 {
-    padding-left: 50px;
-}
+/* Button */
 button {
     padding: 10px 50px;
     border-radius: 8px;
@@ -100,7 +106,8 @@ button:hover {
 button:active {
     box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.46);;
 }
-.article h2:last-child {
-    padding-top: 20px;
-    padding-bottom: 50px;
+/* Down-text */
+h4 {
+    padding-left: 50px;
 }
+
